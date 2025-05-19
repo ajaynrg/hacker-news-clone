@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+header nav a.active {
+    color: blue;
+    /*font-weight: bold;*/
+    /*background-color: #d4e7ff;*/
+    /*padding: 2px 10px;*/
+    /*border-radius: 10px;*/
+    /*color: black !important;*/
+    /*font-weight: normal !important;*/
+    /*border-bottom: black solid 1px;*/
+}
