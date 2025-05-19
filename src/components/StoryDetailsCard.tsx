@@ -22,7 +22,7 @@ export default function StoryDetailsCard({data}: any) {
                     {points} points by <span className="font-bold text-black-700"> {author}</span>
                 </span>
                 <span>
-                    {parseInt(String(dayAgo))} days ago
+                    {Math.floor(dayAgo)} days ago
                 </span>
             </div>
         </div>

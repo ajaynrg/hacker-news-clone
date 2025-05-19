@@ -6,7 +6,7 @@ import {useState} from "react";
 
 export default function ThreadsPage() {
     let content;
-    const [query, setQuery] = useState<string>('');
+    const [query, setQuery] = useState<string | null>(null);
 
     const { data , isFetching, error} = useQuery({
         queryKey:["threads", query],
